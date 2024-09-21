@@ -6,7 +6,7 @@ The AFL Game Prediction Model leverages advanced machine learning techniques to 
 
 ## Key Features
 
-- **Hierarchical Bayesian Modeling:** Implements a structured Bayesian approach to capture team-specific effects and uncertainties in predictions.
+- **Hierarchical Bayesian Modeling with PyMC:** Implements a structured Bayesian approach to capture team-specific effects and uncertainties in predictions.
 - **Principal Component Analysis (PCA):** Utilizes PCA for dimensionality reduction, effectively handling multicollinearity among team statistics.
 - **Dimensionality Reduction:** Reduces complex team performance metrics into principal components, enhancing model efficiency and interpretability.
 - **Model Diagnostics with ArviZ:** Employs ArviZ for comprehensive model diagnostics, ensuring robustness and convergence of the Bayesian model.
@@ -21,7 +21,7 @@ Follow these steps to set up the project on your local machine:
 
 1. **Clone the Git Repository:**
    ```bash
-   git clone https://github.com/yourusername/afl-game-prediction.git
+   git clone https://github.com/jedtoner/AFLPredictionModel.git
    cd afl-game-prediction
    ```
 
